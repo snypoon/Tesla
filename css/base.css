@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+li, ul, p{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+.wrapper{
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 768px) {
+  .wrapper{
+    min-width: 768px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper{
+    min-width: 375px;
+  }
+}
+
+
