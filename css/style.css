@@ -100,7 +100,7 @@
 }
 
 .preview{
-  background: url(/img/tesla__background.png) no-repeat;
+  background: url(../img/tesla__background.png) no-repeat;
   background-size: 100%;
   background-position-y: 22%;
   display: flex;
